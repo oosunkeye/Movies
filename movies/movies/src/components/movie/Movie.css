@@ -1,0 +1,13 @@
+.movie {
+  margin: 1em;
+  position: relative;
+}
+
+.img{
+  border-radius: 10px;
+  box-shadow: 5px;
+  transition: transform .5s ease;
+}
+.img:hover{
+  transform: scale(1.05); 
+}
