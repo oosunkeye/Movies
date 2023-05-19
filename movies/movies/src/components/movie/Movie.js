@@ -13,6 +13,8 @@ const Movie = ({ movie, isLikeShown }) => {
   const dispatch = useDispatch();
   const [isLiked, setIsLiked] = useState(false);
 
+  const [isShown, setIsShown] = useState(false);
+
   const onUpdateLikedMovie = (liked, movie) => {
     setIsLiked(liked);
     liked

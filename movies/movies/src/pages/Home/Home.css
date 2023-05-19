@@ -3,4 +3,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  
+}
+
+.moviecard:hover{
+  transition: transform .9s ease;
+  transform: scale(1.05); 
 }

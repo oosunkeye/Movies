@@ -13,9 +13,9 @@ const Home = () => {
       ) : (
         movies.map((movie) => {
           return movie !== null ? (
-            <div className="moviecard">
+            <>
               <Movie movie={movie} key={movie.id} isLikeShown={true} />
-            </div>
+            </>
           ) : (
             ""
           );
